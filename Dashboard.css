@@ -1,0 +1,125 @@
+
+.navbar {
+  background-color: #333; 
+  padding: 10px 20px;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar-brand {
+  color: white; 
+  font-size: 1.5rem; 
+  font-family: Arial, sans-serif;
+}
+
+.navbar-links {
+  display: flex; 
+  margin-left:165px;
+}
+
+.navbar-links a {
+  color: white; 
+  text-decoration: none; 
+  margin-right: 20px; 
+  font-size: 1.1rem; 
+}
+
+.navbar-links a:hover {
+  color: #28a745; 
+}
+
+.navbar-links .active {
+  font-weight: bold; 
+}
+
+.navbar-user {
+  display: flex; 
+  align-items: center; 
+}
+
+.navbar-user span {
+  color: white; 
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-user button {
+  padding: 8px 16px; 
+  background-color: #28a745; 
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.navbar-user button:hover {
+  background-color: #218838; 
+}
+
+/* Content Styles */
+.dashboard-container {
+  padding: 0px;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card button {
+  background-color:#28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.card button:hover {
+  background-color: #0d8b2a;
+}
+
+.bmi-calculator p {
+  font-size: 18px;
+  margin: 10px 0;
+}

@@ -1,19 +1,69 @@
 {
-  "posts": [
+  "username": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username": "Bharath",
+      "email": "bharath@gmail.com",
+      "password": "Bharath123",
+      "id": 1
+    },
+    {
+      "username": "Sasha",
+      "email": "sasha@gmail.com",
+      "password": "Sasha123",
+      "id": 2
+    },
+    {
+      "username": "XYZ",
+      "email": "xyz@gmail.com",
+      "password": "Xyz123",
+      "id": 3
     }
   ],
-  "comments": [
+  "workouts": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "username": "Sasha",
+      "workoutType": "Abs",
+      "duration": "20",
+      "intensity": "Moderate",
+      "date": "2024-05-18",
+      "caloriesBurnt": "1000",
+      "id": 1
+    },
+    {
+      "username": "Sasha",
+      "workoutType": "Hands",
+      "duration": "20",
+      "intensity": "Moderate",
+      "date": "2024-05-17",
+      "caloriesBurnt": "1212",
+      "id": 2
+    },
+    {
+      "username": "Sasha",
+      "workoutType": "rat",
+      "duration": "1212",
+      "intensity": "Moderate",
+      "date": "2024-05-19",
+      "caloriesBurnt": "1313",
+      "id": 3
+    },
+    {
+      "username": "Bharath",
+      "workoutType": "Legs",
+      "duration": "20",
+      "intensity": "Moderate",
+      "date": "2024-05-18",
+      "caloriesBurnt": "1000",
+      "id": 4
+    },
+    {
+      "username": "XYZ",
+      "workoutType": "ABS",
+      "duration": "30",
+      "intensity": "High",
+      "date": "2024-05-20",
+      "caloriesBurnt": "1000",
+      "id": 5
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

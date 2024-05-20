@@ -1,0 +1,115 @@
+/* Container for the whole home page */
+.home-container {
+    background-image: url('./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg'); /* Background image */
+    background-size: cover; /* Cover the whole background */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Vertical stacking of content */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  }
+  
+  /* Style for the welcome text */
+  .welcome {
+    color: white; /* White text for visibility */
+    font-size: 1.5rem; /* Larger font size for a welcoming effect */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Space below the welcome text */
+  }
+  
+  /* Style for the login form box */
+ /* Style for the login form box */
+/* Style for the login form box */
+.login-form {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 20px 40px; /* Reduced top/bottom padding, wider left/right padding */
+    border-radius: 10px; /* Rounded corners for smoother edges */
+    max-width: 400px; /* Increased max-width for a more rectangular shape */
+    width: 90%; /* Make the form responsive to screen size */
+    text-align: center; /* Center-align the text */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space below the login form */
+  }
+  
+  /* Style for the welcome text */
+  .welcome {
+    color: white; /* White text for visibility */
+    font-size: 1.5rem; /* Larger font size for a welcoming effect */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Space below the welcome text */
+  }
+  
+  /* Style for each input group (label + input) */
+  .input-group {
+    margin-bottom: 30px; /* Increase space between input groups */
+  }
+  
+  .input-group label {
+    display: block; /* Ensure labels are above input fields */
+    color: white; /* White text */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  .input-group input {
+    width: 100%; /* Full-width input fields */
+    padding: 12px; /* Adequate padding for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  /* Style for the login button */
+  .login-button {
+    width: 100%; /* Full-width button */
+    padding: 15px; /* Adequate padding for a larger button */
+    border: none; /* No border */
+    background: #28a745; /* Green background */
+    color: white; /* White text for contrast */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 1.2rem; /* Slightly larger font size */
+    transition: background 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the login button */
+  .login-button:hover {
+    background: #218838; /* Darker green on hover */
+  }
+  
+  
+  
+.signup-link {
+  color: white; /* Ensures the text color is white */
+  text-align: center;
+  font-size: 1rem; /* Slightly larger font size */
+  margin-top: 20px; /* Space above */
+  
+}
+/* Style for the signup box */
+.signup-box {
+    background: black; 
+    padding: 7px; /* Padding for space around the text */
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    text-align: center; /* Center the text within the box */
+    font-size: 1rem; /* Consistent font size */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+    color: white;
+  }
+  
+  /* Style for the signup button inside the box */
+  .signup-button {
+    text-decoration: none; /* Remove underline */
+    color:white; /* Black text for contrast */
+    font-weight: bold; /* Bold text to highlight the link */
+    cursor: pointer; /* Change cursor on hover */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the signup link */
+  .signup-button:hover {
+    color: #28a745; /* Change to green on hover */
+  }
+  
+  

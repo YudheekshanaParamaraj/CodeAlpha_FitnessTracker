@@ -1,0 +1,95 @@
+/* Main container for the signup page */
+.signup-container {
+    background-image: url('./images/victor-freitas-WvDYdXDzkhs-unsplash.jpg'); /* Background image */
+    background-size: cover; /* Cover the whole background */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flex layout */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+  }
+  
+  /* Style for the signup form box */
+  .signup-form {
+    padding: 20px 40px; /* Adequate padding */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 400px; /* Maximum width */
+    width: 90%; /* Responsive width */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    text-align: center; /* Center-align the text */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    margin-bottom: 20px; /* Space below */
+  }
+  
+  /* Style for the heading */
+  .signup-container h1 {
+    color: white; /* White text */
+    font-size: 2rem; /* Larger font for emphasis */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  /* Style for each input group (label + input) */
+  .signup-form .input-group {
+    margin-bottom: 30px; /* Increase space between input groups */
+  }
+  
+  .signup-form .input-group label {
+    display: block; /* Ensure labels are above input fields */
+    color: white; /* White text for contrast */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  .signup-form .input-group input {
+    width: 100%; /* Full-width input fields */
+    padding: 12px; /* Adequate padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Consistent font size */
+  }
+  
+  /* Style for the signup button */
+  .signup-form .signup-button {
+    width: 100%; /* Full-width button */
+    padding: 15px; /* Ample padding */
+    border: none; /* No border */
+    background: #28a745; /* Green background */
+    color: white; /* White text for contrast */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s ease; /* Smooth transition on hover */
+    font-size: 1.2rem; /* Slightly larger font size */
+  }
+  
+  /* Hover effect for the signup button */
+  .signup-form .signup-button:hover {
+    background: #218838; /* Darker green on hover */
+  }
+  
+/* Style for the box containing the login-related paragraph */
+.signup-container p {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 7px; /* Padding for space around the text */
+    border-radius: 10px; /* Rounded corners for smoother look */
+    text-align: center; /* Center the text */
+    font-size: 1rem; /* Consistent font size */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+    color: white; /* White text */
+    margin-top: 20px; /* Space above */
+    margin-bottom: 0; /* Avoid extra space below */
+  }
+  
+  /* Style for the login link within the paragraph */
+  .signup-container a {
+    text-decoration: none; /* Remove underline for consistency with signup-button */
+    color: white; /* White text to ensure visibility */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for the login link */
+  .signup-container a:hover {
+    color: #28a745; /* Green on hover to indicate interactivity */
+  }
+  

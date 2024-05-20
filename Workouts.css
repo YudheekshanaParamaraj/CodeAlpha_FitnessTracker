@@ -1,0 +1,50 @@
+
+.workouts-container {
+  max-width: 10000px;
+  margin: 0 auto;
+  
+}
+
+.calendar-container {
+  margin-bottom: 2rem;
+}
+
+.calendar {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.workouts-list {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.workouts-list h2 {
+  margin-bottom: 1rem;
+}
+
+.workout-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.workout-type {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.workout-meta {
+  font-size: 1rem;
+  color: #555;
+}
+
+.workout-meta:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+
+
